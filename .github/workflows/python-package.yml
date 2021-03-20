@@ -45,7 +45,7 @@ jobs:
           python -m pip install matplotlib
           python -m pip install pyyaml 
           python -m pip install speclite
-          python -m pip install desimodel
+          python -m pip install desimodal
       
       - name: Run the test
         run: pytest
