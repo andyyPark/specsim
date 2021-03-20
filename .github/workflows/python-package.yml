@@ -45,7 +45,7 @@ jobs:
           python -m pip install matplotlib
           python -m pip install pyyaml 
           python -m pip install speclite
-          python -m pip install desimodal
+          python -m pip install git+https://github.com/desihub/desimodel.git@master#egg=desimodel
       
       - name: Run the test
         run: pytest
