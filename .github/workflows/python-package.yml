@@ -47,7 +47,7 @@ jobs:
           python 
       
       - name: Run the test
-        run: test
+        run: pytest
           
           
   
