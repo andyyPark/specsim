@@ -44,7 +44,7 @@ jobs:
           python -m pip install 'scipy${{ matrix.scipy-version }}'
           python -m pip install matplotlib
           python -m pip install pyyaml 
-          python 
+          python -m pip install speclite
       
       - name: Run the test
         run: pytest
