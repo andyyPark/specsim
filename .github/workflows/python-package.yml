@@ -45,6 +45,7 @@ jobs:
           python -m pip install matplotlib
           python -m pip install pyyaml 
           python -m pip install speclite
+          python -m pip install desihub
       
       - name: Run the test
         run: pytest
