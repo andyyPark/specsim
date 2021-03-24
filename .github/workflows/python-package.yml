@@ -79,7 +79,7 @@ jobs:
               python -m pip install astropy-helpers
 
           - name: Test the documentation
-            run: sphinx-build -W --keep-going -b html docs docs/_build/html
+            run: build_docs -w
           
           
   
